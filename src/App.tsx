@@ -14,7 +14,6 @@ import { Section } from "./components/Section";
 import { SiteFooter } from "./components/SiteFooter";
 import { SiteHeader } from "./components/SiteHeader";
 import { StructuredData } from "./components/StructuredData";
-import { VideoSection } from "./components/VideoSection";
 
 export default function App() {
   const { lang, t } = useLanguage();
