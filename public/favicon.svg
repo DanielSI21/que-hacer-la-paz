@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="La Paz">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5bc8c6" />
+      <stop offset="1" stop-color="#087f8c" />
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="7" fill="#0d4253" />
+  <circle cx="22" cy="10" r="4.5" fill="#e97958" />
+  <path d="M2 21c4 0 4-3 8-3s4 3 8 3 4-3 8-3 4 3 8 3v9H2Z" fill="url(#sea)" />
+  <path d="M2 26c4 0 4-2.5 8-2.5s4 2.5 8 2.5 4-2.5 8-2.5 4 2.5 8 2.5V31H2Z" fill="#f1dfbd" opacity=".9" />
+</svg>

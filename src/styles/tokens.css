@@ -1,0 +1,67 @@
+/* Paleta inspirada en el Mar de Cortes, la arena y los atardeceres.
+   Los tonos de texto se eligieron para superar 4.5:1 sobre su fondo. */
+
+:root {
+  /* Paleta base */
+  --sea-deep: #0d4253;
+  --sea: #087f8c;
+  --turquoise: #5bc8c6;
+  --sand: #f1dfbd;
+  --sunset: #e97958;
+  --desert: #b86b45;
+  --ink: #17333c;
+  --background: #fbfaf6;
+
+  /* Variantes derivadas con contraste suficiente para texto */
+  --sea-strong: #06616c;
+  --sea-darker: #072b38;
+  --sand-soft: #f8efd9;
+  --sand-line: #e2cfa8;
+  --desert-strong: #8f4f2f;
+  --ink-soft: #3d5760;
+  --ink-faint: #5c757e;
+
+  /* Roles */
+  --surface: #ffffff;
+  --surface-muted: var(--sand-soft);
+  --border: #dfd9cb;
+  --border-strong: #c6bda9;
+  --text: var(--ink);
+  --text-muted: var(--ink-soft);
+  --accent: var(--sea-strong);
+  --accent-contrast: #ffffff;
+  --focus: #b3410f;
+
+  /* Tipografia */
+  --font-display: "Fraunces", "Iowan Old Style", Georgia, "Times New Roman", serif;
+  --font-body: "Manrope", "Segoe UI", system-ui, -apple-system, sans-serif;
+
+  --step--1: clamp(0.83rem, 0.79rem + 0.19vw, 0.94rem);
+  --step-0: clamp(1rem, 0.95rem + 0.25vw, 1.13rem);
+  --step-1: clamp(1.2rem, 1.11rem + 0.44vw, 1.5rem);
+  --step-2: clamp(1.44rem, 1.29rem + 0.75vw, 2rem);
+  --step-3: clamp(1.73rem, 1.49rem + 1.2vw, 2.67rem);
+  --step-4: clamp(2.07rem, 1.7rem + 1.85vw, 3.55rem);
+  --step-5: clamp(2.49rem, 1.92rem + 2.85vw, 4.74rem);
+
+  /* Espacio y forma */
+  --space-2xs: 0.375rem;
+  --space-xs: 0.625rem;
+  --space-s: 1rem;
+  --space-m: 1.5rem;
+  --space-l: 2.5rem;
+  --space-xl: 4rem;
+  --space-2xl: 6rem;
+
+  --radius-s: 0.5rem;
+  --radius-m: 1rem;
+  --radius-l: 1.75rem;
+  --radius-pill: 999px;
+
+  --shadow-s: 0 1px 2px rgb(13 66 83 / 8%), 0 2px 8px rgb(13 66 83 / 6%);
+  --shadow-m: 0 8px 24px rgb(13 66 83 / 12%), 0 2px 6px rgb(13 66 83 / 8%);
+  --shadow-l: 0 24px 48px rgb(13 66 83 / 18%);
+
+  --content-width: 72rem;
+  --prose-width: 44rem;
+}
