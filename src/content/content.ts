@@ -196,7 +196,7 @@ const PLACES: PlaceEntry[] = [
   {
     slug: "el-tecolote",
     category: "beach",
-    mapQuery: "Playa El Tecolote, La Paz, Baja California Sur",
+    mapQuery: "Playa El Tecolote",
     withDirections: true,
     officialUrl: "https://www.golapaz.com/things-to-do/beaches/el-tecolote/",
     image: { slug: "playa-tecolote", preset: "card" },
@@ -235,7 +235,7 @@ const PLACES: PlaceEntry[] = [
   {
     slug: "el-saltito",
     category: "beach",
-    mapQuery: "Playa El Saltito, La Paz, Baja California Sur",
+    mapQuery: "Playa El Saltito",
     withDirections: true,
     officialUrl: "https://www.golapaz.com/things-to-do/beaches/el-saltito/",
     image: { slug: "playa-saltito", preset: "card" },
@@ -508,7 +508,7 @@ const PLACES: PlaceEntry[] = [
   {
     slug: "la-garita",
     category: "restaurant",
-    mapQuery: "La Garita, km 29 carretera La Paz - Todos Santos, Baja California Sur",
+    mapQuery: "La Garita Since 1988",
     officialUrl: "https://www.golapaz.com/things-to-do/restaurants/",
     image: { slug: "la-garita", preset: "card" },
     dynamicInformation: true,
@@ -578,7 +578,7 @@ const PLACES: PlaceEntry[] = [
   {
     slug: "agricole",
     category: "restaurant",
-    mapQuery: "Agricole, El Pescadero, Baja California Sur",
+    mapQuery: "Agricole Tienda de Campo",
     withDirections: true,
     officialUrl: "https://agricole.mx/",
     image: { slug: "agricole", preset: "card" },
@@ -615,7 +615,7 @@ const PLACES: PlaceEntry[] = [
   {
     slug: "taco-fish",
     category: "restaurant",
-    mapQuery: "Taco Fish La Paz, Baja California Sur",
+    mapQuery: "Taco Fish La Paz Suc. Malecon",
     officialUrl: "https://www.golapaz.com/things-to-do/restaurants/",
     dynamicInformation: true,
     text: {
@@ -865,7 +865,7 @@ const PLACES: PlaceEntry[] = [
       },
     },
   },
-  
+
   /* -------------------------------------------------------------- actividad */
   {
     slug: "malecon",

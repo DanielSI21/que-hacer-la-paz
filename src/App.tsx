@@ -53,14 +53,14 @@ export default function App() {
           <PlaceGrid places={dayTrips} />
         </Section>
 
-        <EspirituSantoSection />
         <RestaurantSection />
         <MaleconSection />
         <ItinerariesSection />
+        <EspirituSantoSection />
         <MapSection />
-        <VideoSection />
         <FaqSection />
         <FinalCta />
+        
       </main>
 
       <SiteFooter />
