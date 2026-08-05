@@ -8,7 +8,7 @@ export function SiteFooter() {
 
   return (
     <footer className="site-footer" id="fuentes">
-      {/* <div className="site-footer__inner">
+      <div className="site-footer__inner">
         <section className="site-footer__block" aria-labelledby="footer-sources">
           <h2 className="site-footer__title" id="footer-sources">
             {f.sourcesTitle}
@@ -43,7 +43,7 @@ export function SiteFooter() {
             {t.labels.lastVerified} {LAST_VERIFIED}
           </p>
         </section>
-      </div> */}
+      </div>
 
       <div className="site-footer__bar">
         <p>{f.credit}</p>

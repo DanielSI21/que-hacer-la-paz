@@ -1484,88 +1484,10 @@ export const FAQ: Record<Lang, FaqItem[]> = {
 /* ------------------------------------------------------- fuentes oficiales */
 export const SOURCES: Record<Lang, SourceLink[]> = {
   es: [
-    {
-      label: "CONANP · Balandra",
-      url: "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=9",
-      description: "Área de Protección de Flora y Fauna Balandra.",
-    },
-    {
-      label: "CONANP · Brazalete de conservación",
-      url: "https://descubreanp.conanp.gob.mx/es/conanp/pasaporte-brazalete-conservacion",
-      description: "Esquema de acceso vigente a las áreas naturales protegidas.",
-    },
-    {
-      label: "gob.mx · Balandra",
-      url: "https://www.gob.mx/conanp/documentos/area-de-proteccion-de-flora-y-fauna-balandra",
-      description: "Documentación federal del área protegida.",
-    },
-    {
-      label: "Turismo de La Paz",
-      url: "https://www.golapaz.com/",
-      description: "Guía oficial de destino: playas, Malecón y restaurantes.",
-    },
-    {
-      label: "Visit Los Cabos",
-      url: "https://www.visitloscabos.travel/things-to-do/beaches/lovers-beach/",
-      description: "Información oficial de Playa del Amor y El Arco.",
-    },
-    {
-      label: "La Concha Beach Hotel & Club",
-      url: "https://www.laconcha.com/",
-      description: "Sitio oficial del hotel.",
-    },
-    {
-      label: "Jazamango",
-      url: "https://www.jazamango.mx/",
-      description: "Sitio oficial del restaurante en Todos Santos.",
-    },
-    {
-      label: "Barracuda Cantina",
-      url: "https://www.barracudacantina.com/",
-      description: "Sitio oficial del restaurante en Playa Cerritos.",
-    },
+    
   ],
   en: [
-    {
-      label: "CONANP · Balandra",
-      url: "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=9",
-      description: "Balandra Flora and Fauna Protection Area.",
-    },
-    {
-      label: "CONANP · Conservation bracelet",
-      url: "https://descubreanp.conanp.gob.mx/es/conanp/pasaporte-brazalete-conservacion",
-      description: "Current access scheme for protected natural areas.",
-    },
-    {
-      label: "gob.mx · Balandra",
-      url: "https://www.gob.mx/conanp/documentos/area-de-proteccion-de-flora-y-fauna-balandra",
-      description: "Federal documentation for the protected area.",
-    },
-    {
-      label: "La Paz Tourism",
-      url: "https://www.golapaz.com/",
-      description: "Official destination guide: beaches, Malecón and restaurants.",
-    },
-    {
-      label: "Visit Los Cabos",
-      url: "https://www.visitloscabos.travel/things-to-do/beaches/lovers-beach/",
-      description: "Official information on Lover's Beach and El Arco.",
-    },
-    {
-      label: "La Concha Beach Hotel & Club",
-      url: "https://www.laconcha.com/",
-      description: "Official hotel website.",
-    },
-    {
-      label: "Jazamango",
-      url: "https://www.jazamango.mx/",
-      description: "Official site of the restaurant in Todos Santos.",
-    },
-    {
-      label: "Barracuda Cantina",
-      url: "https://www.barracudacantina.com/",
-      description: "Official site of the restaurant at Cerritos Beach.",
-    },
+    
   ],
 };
 
@@ -1731,7 +1653,7 @@ export const UI: Record<Lang, UiStrings> = {
       disclaimerTitle: "Aviso",
       disclaimer:
         "Esta guía es informativa y no representa oficialmente al hotel ni a los establecimientos mencionados. Horarios, costos, cupos y reglas de acceso pueden cambiar sin aviso; confirma siempre con la fuente oficial antes de tu visita. No publicamos precios ni reseñas.",
-      credit: "Guía turística de La Paz, Baja California Sur",
+      credit: "Guía turística de La Paz, Baja California Sur. Hecho por: Daniel Sepúlveda",
       backToTop: "Volver al inicio",
     },
   },
